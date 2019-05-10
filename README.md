@@ -24,7 +24,7 @@ $ npm run develop
 
 [Gutenberg: A Meaningful Web Typography Starter Kit](https://github.com/matejlatin/Gutenberg/) (open source project) is a flexible and simple-to-use web typography starter kit for web designers and developers.
 
-This is a Gatsby starter that uses the Gutenberg typography kit, [see demo](https://gatsby-starter-gutenberg.netlify.com/).
+This is a Gatsby starter that uses the Gutenberg typography kit, made possible by [typography.js](https://kyleamathews.github.io/typography.js/) and [Gatsby Typography Gutenberg](https://github.com/wgao19/gatsby-typography-gutenberg).
 
 ## Features
 
