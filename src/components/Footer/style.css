@@ -1,0 +1,11 @@
+footer {
+  margin-top: 4rem;
+}
+footer span::after {
+  content: '/';
+  margin-right: .5rem;
+  color: #ccc;
+}
+footer a:not(:last-child) {
+  margin-right: .5rem;
+}

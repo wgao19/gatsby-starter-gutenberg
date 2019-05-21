@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../../data/SiteConfig";
+import Footer from "../Footer";
 import "./index.css";
 
 export default class MainLayout extends React.Component {
@@ -12,6 +13,7 @@ export default class MainLayout extends React.Component {
           <meta name="description" content={config.siteDescription} />
         </Helmet>
         {children}
+        <Footer />
       </div>
     );
   }

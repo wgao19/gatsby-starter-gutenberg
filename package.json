@@ -39,7 +39,7 @@
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-plugin-code": "^0.16.19",
-    "typography-theme-gutenberg": "^0.1.0",
+    "typography-theme-gutenberg": "^0.1.2",
     "url-join": "^4.0.0"
   },
   "devDependencies": {

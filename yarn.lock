@@ -12853,10 +12853,10 @@ typography-plugin-code@^0.16.19:
     gray-percentage "^2.0.0"
     lodash "^4.13.1"
 
-typography-theme-gutenberg@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/typography-theme-gutenberg/-/typography-theme-gutenberg-0.1.0.tgz#0ff7c002e3211253ffa06b378e50402d14a8b6c5"
-  integrity sha512-3RZqvlT4AqdJQYlrXHgZn+w1VofdrNW1Xirn2RXgPyXFAm0qYJ2Cay7pFQpOCoHShQbEQ9UmALrnr2VBBMcJ3g==
+typography-theme-gutenberg@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/typography-theme-gutenberg/-/typography-theme-gutenberg-0.1.2.tgz#cc183ca721dc080c0ce4868473e771e86d20d275"
+  integrity sha512-cg99FFKRh5lub+uBp1dDP2TRnv1BAK2WAOOUbI6Grx/W0nt+N5/Mf6g4A+S9xnaCYSg+PLNR2N0yWT6SqtdQwg==
   dependencies:
     parse-unit "^1.0.1"
 
