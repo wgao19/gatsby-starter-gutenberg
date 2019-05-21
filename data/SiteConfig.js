@@ -1,7 +1,7 @@
 const config = {
   siteTitle: "Gatsby Starter Gutenberg",
   siteTitleShort: "Gutenberg Starter",
-  siteTitleAlt: "Gutenberg Starter",
+  siteTitleAlt: "A blog by 👩🏻‍🌾",
   siteLogo: "/logos/gutenberg.jpg",
   siteUrl: "https://gatsby-starter-gutenberg.netlify.com/",
   siteBanner:

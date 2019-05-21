@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../../components/Layout";
+import Header from "../../components/Header";
 import SEO from "../../components/SEO";
 import config from "../../../data/SiteConfig";
 import "../b16-tomorrow-dark.css";
@@ -26,6 +27,11 @@ export default class PostTemplate extends React.Component {
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
+          <Header
+            imageURL={post.cover ? post.cover.publicURL : config.siteBanner}
+            title={post.title}
+            text={post.author}
+          />
           <article>
             <h1>{post.title}</h1>
             <div className="attention-grabber">{post.description}</div>
@@ -61,6 +67,7 @@ export const pageQuery = graphql`
         category
         tags
         description
+        author
       }
       fields {
         slug

@@ -3,3 +3,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.post-header h1 {
+    color: white;
+}

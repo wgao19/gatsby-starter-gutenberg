@@ -2,22 +2,21 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Header from "../components/Header";
 import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
-import "./style.css";
 
 class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
-        <header style={{ backgroundImage: `url(${config.siteBanner})` }}>
-          <h1>
-            <span>Gatsby Starter Gutenberg</span>
-          </h1>
-          <section>A Blog by 👩🏻‍🌾</section>
-        </header>
+        <Header
+          imageURL={config.siteBanner}
+          title={config.siteTitle}
+          text={config.siteTitleAlt}
+        />
         <main className="index-container">
           <Helmet title={config.siteTitle} />
           <SEO />
