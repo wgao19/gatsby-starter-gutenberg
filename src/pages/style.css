@@ -1,0 +1,27 @@
+header {
+  width: 100vw;
+  padding: calc(210 * 100% / 728 - 117px - 58px) 1rem 1px;
+  background-position: bottom;
+  background-size: cover;
+  text-align: right;
+}
+
+header > h1 {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+header > h1 > span {
+  background: white;
+  color: black;
+  mix-blend-mode: screen;
+  padding: .5rem;
+  border-radius: 2px;
+  opacity: .7;
+}
+
+header > section {
+  opacity: .7;
+  color: white;
+  margin-bottom: 1.2rem;
+}

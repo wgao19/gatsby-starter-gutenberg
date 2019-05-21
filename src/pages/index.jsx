@@ -5,12 +5,19 @@ import Layout from "../components/Layout";
 import PostListing from "../components/PostListing";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
+import "./style.css";
 
 class Index extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Layout>
+        <header style={{ backgroundImage: `url(${config.siteBanner})` }}>
+          <h1>
+            <span>Gatsby Starter Gutenberg</span>
+          </h1>
+          <section>A Blog by 👩🏻‍🌾</section>
+        </header>
         <main className="index-container">
           <Helmet title={config.siteTitle} />
           <SEO />

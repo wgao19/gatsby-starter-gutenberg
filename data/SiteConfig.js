@@ -4,6 +4,8 @@ const config = {
   siteTitleAlt: "Gutenberg Starter",
   siteLogo: "/logos/gutenberg.jpg",
   siteUrl: "https://gatsby-starter-gutenberg.netlify.com/",
+  siteBanner:
+    "https://upload.wikimedia.org/wikipedia/commons/a/ae/Metal_movable_type.jpg",
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
     "A simple Gatsby starter using [Gutenberg](http://matejlatin.github.io/Gutenberg/) as typography theme.", // Website description used for RSS feeds/meta description tag.
