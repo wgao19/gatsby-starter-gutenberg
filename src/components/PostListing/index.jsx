@@ -23,12 +23,10 @@ class PostListing extends React.Component {
     return (
       <div>
         {/* Your post list here. */
-        postList.map(post => (
-          <React.Fragment key={post.id}>
+        postList.map((post, idx) => (
+          <React.Fragment key={idx}>
             <h2>
-              <Link to={post.path} key={post.title}>
-                {post.title}
-              </Link>
+              <Link to={post.path}>{post.title}</Link>
             </h2>
             <p>
               {post.excerpt}
